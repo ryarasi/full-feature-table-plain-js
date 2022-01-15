@@ -1,0 +1,102 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+body {
+  padding: 1rem;
+  overflow: auto;
+}
+
+#pagination-controls {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-button {
+  background: #64b5f6;
+  padding: 10px 13px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 99px;
+  border: none;
+  cursor: pointer;
+}
+.page-button:hover {
+  background: #2286c3;
+}
+
+.disabled-button {
+  background: grey;
+  cursor: default;
+  pointer-events: none;
+}
+
+.active-page-button {
+  font-size: bold;
+  background: #1565c0;
+}
+
+#filter-text-box {
+  width: 99%;
+  display: block;
+  margin: 2px;
+  font-size: 1.1em;
+}
+
+#delete-selected-rows-button {
+  padding: 10px 20px;
+  left: 0px;
+  background: red;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  float: left;
+}
+
+.action-button {
+  border: none;
+  color: white;
+  padding: 3px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  opacity: 1;
+}
+
+.action-button.edit {
+  background-color: #008cba; /* Blue */
+}
+.action-button.update {
+  background-color: #4caf50; /* Green */
+}
+
+.action-button.delete {
+  background-color: #f44336; /* Red */
+}
+
+.action-button.cancel {
+  background-color: #e7e7e7; /* Gray */
+  color: black;
+}
