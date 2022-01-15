@@ -27,16 +27,17 @@ body {
 }
 
 .page-button {
-  background: #64b5f6;
+  background: #008cba;
   padding: 10px 13px;
   margin: 10px;
   color: #fff;
   border-radius: 99px;
+  opacity: 0.7;
   border: none;
   cursor: pointer;
 }
 .page-button:hover {
-  background: #2286c3;
+  opacity: 1;
 }
 
 .disabled-button {
@@ -60,13 +61,17 @@ body {
 #delete-selected-rows-button {
   padding: 10px 20px;
   left: 0px;
-  background: red;
-  border-radius: 5px;
+  background: #f44336;
+  opacity: 0.7;
+  border-radius: 99px;
   border: none;
   color: white;
   font-weight: bold;
   cursor: pointer;
   float: left;
+}
+#delete-selected-rows-button:hover {
+  opacity: 1;
 }
 
 .action-button {
@@ -79,6 +84,7 @@ body {
   font-size: 16px;
   opacity: 0.7;
   cursor: pointer;
+  border-radius: 99px;
 }
 
 .action-button:hover {
